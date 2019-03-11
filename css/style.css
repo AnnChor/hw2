@@ -8,7 +8,7 @@ body {
     background-color: #ffffff;
     color: #626262;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 24px;   
     text-align: left;
 }
 
@@ -18,12 +18,13 @@ body {
     height: auto;
 } */
 
-.wrpapper {
+.wrapper {
     display: inline-block;
     width: 900px;
-    margin: 0, auto;
+    margin: auto;
     background-color: #eee;
     font-size: 0;
+    vertical-align: top;
 }
 
 .site-header{
@@ -32,22 +33,22 @@ body {
     padding-bottom: 100px;
 }
 
-.site-navigation {
+.menu-nav {
     font-size: 14px;
     list-style: none;
     margin-left: 160px;
 }
 
-.site-navigation li {
+.menu-nav li {
     display: inline-block;
     margin-right: 120px;
 }
 
-.site-navigation li:last-child {
+.menu-nav li:last-child {
     margin-right: 0;
 }
 
-.site-navigation a {
+.menu-nav a {
     text-decoration: none;
     color: #626262;
     font-weight: 400;
@@ -55,19 +56,40 @@ body {
     line-height: 24px;
 }
 
-.site-navigation a:hover,
-.site-navigation a:focus {
+.menu-nav a:hover,
+.menu-nav a:focus {
     color: blue;
 }
 
 .main-menu {
-    width: 900px;
+    font-size: 0;
 }
 
 .card {
     display: inline-block;
     width: 420px;
     margin-bottom: 135px;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.card-mr {
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+    font-size: 14px;
+    vertical-align: top;
+    margin-bottom: 135px;
+   
+}
+
+.card-image-wrp {
+    text-align: justify;
+    margin: auto;
+    vertical-align: top;
+}
+.card-image {
+    width: 420px;
 }
 
 .card-subtitle {
@@ -92,19 +114,19 @@ body {
     line-height: 24px;
     width: 420px;
 }
-footer{
+
+.top-footer{
     text-align: center;
-    background-color: grey; 
+    line-height: 100px;
 }
 
-.button {
-    padding: 10px 20px 10px 10px;
+.top-button {
+    padding: 10px 10px;
     cursor: pointer;
+    font-size: 24px;
+    line-height: 1.5;
+    background-color: #fff;
+    color: grey;
 }
 
-.a {
-    padding: 10px 20px;
-    background-color: grey;
-    color: aqua;
-}
 
