@@ -19,7 +19,6 @@ body {
 } */
 
 .wrapper {
-    display: inline-block;
     width: 900px;
     margin: auto;
     background-color: #eee;
@@ -36,12 +35,12 @@ body {
 .menu-nav {
     font-size: 14px;
     list-style: none;
-    margin-left: 160px;
+    text-align: center;
 }
 
 .menu-nav li {
     display: inline-block;
-    margin-right: 120px;
+    margin: 0 50px;
 }
 
 .menu-nav li:last-child {
@@ -118,6 +117,10 @@ body {
 .top-footer{
     text-align: center;
     line-height: 100px;
+}
+
+button {
+    border: none;
 }
 
 .top-button {
